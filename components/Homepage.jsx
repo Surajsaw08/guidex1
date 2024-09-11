@@ -2,14 +2,14 @@
 
 import Image from "next/image";
 import Mentorcard from "./Mentorcard";
-import Testimonial from "./testimonial";
-import Footer from "./Footer";
+
 import Contact from "./Contact";
 import { useRouter } from "next/navigation";
 import { CoolMode } from "@/components/magicui/cool-mode";
 import FlipText from "@/components/magicui/flip-text";
 import { cn } from "@/lib/utils";
 import DotPattern from "@/components/magicui/dot-pattern";
+import Testimonial from "./Testimonial.jsx";
 const Homepage = () => {
   const router = useRouter();
 
